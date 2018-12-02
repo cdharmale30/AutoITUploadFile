@@ -12,9 +12,9 @@ public class AutoITDownload {
 			// Create a profile
 			FirefoxProfile profile=new FirefoxProfile();
 
-			// Set preferences for file type 
+			// Set preferences for file typeÂ 
 			profile.setPreference("browser.helperApps.neverAsk.openFile", "application/octet-stream");
-			// Open browser with profile                   
+			// Open browser with profile Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  
 			WebDriver driver=new FirefoxDriver(profile);
 
 			// Set implicit wait
@@ -25,6 +25,7 @@ public class AutoITDownload {
 			// Open APP to download application
 			driver.get("https://www.seleniumhq.org/download/");
 			driver.findElement(By.xpath("//a[contains(text(),'3.141.59')]")).click();
-			
+			System.out.println("1111111111111111");
+
 			
 	}}
