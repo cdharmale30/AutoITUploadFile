@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="70299" started-at="2018-12-02T16:54:21Z" finished-at="2018-12-02T16:55:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="70299" started-at="2018-12-02T16:54:21Z" finished-at="2018-12-02T16:55:31Z">
+      <class name="com.test.filedownload.FileDownloadTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.filedownload.FileDownloadTest@7c0e2abd]" name="setup" is-config="true" duration-ms="70026" started-at="2018-12-02T08:54:21Z" finished-at="2018-12-02T08:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCaseOne_Test_One()[pri:0, instance:com.test.filedownload.FileDownloadTest@7c0e2abd]" name="testCaseOne_Test_One" duration-ms="252" started-at="2018-12-02T08:55:31Z" finished-at="2018-12-02T08:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseOne_Test_One -->
+      </class> <!-- com.test.filedownload.FileDownloadTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
